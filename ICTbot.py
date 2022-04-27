@@ -10,8 +10,7 @@ logging.basicConfig(
     level=logging.INFO)
 
 updater = Updater(
-    token='1771951064:AAG58KNlXQDa4CJGKTFFrI68OG9MvN95ntw',
-    # token='929969080:AAEnUoS6-OFUGSvzybObCTmDpjgH0w5PcEQ',  # FOR DEBUGGING
+    token='SECRET',
     persistence=PicklePersistence(filename='bot_data'),
     use_context=True
 )
